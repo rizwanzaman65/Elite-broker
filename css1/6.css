@@ -1,0 +1,680 @@
+.inner-banner {
+  padding: 25rem 0 15rem;
+  z-index: 1;
+  position: relative;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.inner-banner .banner-bg-seperator .uvc-svg-triangle {
+  position: absolute;
+  top: auto;
+  bottom: -1px;
+  z-index: 1;
+  transform: scaleY(-1);
+}
+.inner-banner .banner-content {
+  text-align: center;
+}
+.inner-banner .banner-content h1 {
+  font-size: 4.5rem;
+  line-height: 5.5rem;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.inner-banner .banner-content p {
+  color: #cce1f1;
+  font-style: italic;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.cta-block-inner {
+  background-color: #536f93;
+  padding: 30px 0;
+}
+.cta-block-inner .btn-block-left h2 {
+  font-size: 2.3rem;
+  line-height: 3.3rem;
+  font-weight: 600;
+}
+.cta-block-inner .flex-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.cta-block-inner .flex-btn a {
+  font-size: 2.3rem;
+  line-height: 3.3rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.center-txt {
+  background-color: #f7f7f7;
+}
+.center-txt .heading-tag {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  margin: 0;
+  color: #536f93;
+}
+.center-txt p {
+  font-size: 1.9rem;
+  line-height: 2.9rem;
+}
+
+.inner-heading {
+  font-size: 3.4rem;
+  line-height: 4.4rem;
+}
+
+.differ-bg {
+  position: relative;
+}
+.differ-bg::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+.webp .differ-bg::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/homeowners-insurance-thumb.webp);
+}
+.no-webp .differ-bg::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/homeowners-insurance-thumb.jpg);
+}
+.differ-bg .content-right {
+  padding: 120px 110px 120px 40px;
+}
+.differ-bg .serv-content h2 {
+  font-weight: 300;
+  font-size: 3rem;
+  line-height: 3rem;
+  color: #536f93;
+  margin: 0;
+}
+.differ-bg .serv-content p {
+  margin: 20px 0 25px;
+}
+.differ-bg .serv-content span {
+  font-weight: 600;
+  font-size: 2.3rem;
+  margin: 25px 0 0;
+  color: #7f7f7f;
+  text-transform: capitalize;
+}
+.differ-bg .serv-content .btn-main {
+  border-color: #fff !important;
+}
+.differ-bg .serv-content .btn-main i {
+  transition: 0.3s all;
+  transform: translateX(0px);
+}
+.differ-bg .serv-content .btn-main:hover {
+  background-color: #536f93;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.differ-bg .serv-content .btn-main:hover i {
+  transform: translateX(5px);
+}
+
+.billing-claims-bg::before {
+  right: 0;
+  left: auto;
+}
+.billing-claims-bg .content-left {
+  padding: 120px 40px 120px 110px;
+}
+
+.webp .auto-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/auto-insurance-thumb.webp);
+}
+.no-webp .auto-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/auto-insurance-thumb.jpg);
+}
+
+.webp .boat-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/boat-insurance-thumb.webp);
+}
+.no-webp .boat-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/boat-insurance-thumb.jpg);
+}
+
+.webp .umbrella-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/umbrella-insurance-thumb.webp);
+}
+.no-webp .umbrella-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/umbrella-insurance-thumb.jpg);
+}
+
+.webp .pet-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/pet-insurance-thumb.webp);
+}
+.no-webp .pet-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/pet-insurance-thumb.jpg);
+}
+
+.webp .flood-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/flood-insurance-thumb.webp);
+}
+.no-webp .flood-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/flood-insurance-thumb.jpg);
+}
+
+.webp .life-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/life-insurance-thumb.webp);
+}
+.no-webp .life-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/life-insurance-thumb.jpg);
+}
+
+.webp .health-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/health-insurance-thumb.webp);
+}
+.no-webp .health-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/health-insurance-thumb.jpg);
+}
+
+.webp .long-term-care-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/long-term-care-insurance-thumb.webp);
+}
+.no-webp .long-term-care-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/long-term-care-insurance-thumb.jpg);
+}
+
+.webp .long-term-disability-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/long-term-disability-thumb.webp);
+}
+.no-webp .long-term-disability-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/long-term-disability-thumb.jpg);
+}
+
+.webp .commercial-liability-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/commercial-liability-insurance-thumb.webp);
+}
+.no-webp .commercial-liability-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/commercial-liability-insurance-thumb.jpg);
+}
+
+.webp .commercial-property-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/commercial-property-insurance-thumb.webp);
+}
+.no-webp .commercial-property-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/commercial-property-insurance-thumb.jpg);
+}
+
+.webp .commercial-auto-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/commercial-auto-insurance-thumb.webp);
+}
+
+
+
+
+
+.no-webp .commercial-auto-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/commercial-auto-insurance-thumb.jpg);
+}
+
+.webp .commercial-umbrella-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/commercial-umbrella-insurance-thumb.webp);
+}
+
+.no-webp .commercial-umbrella-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/commercial-umbrella-insurance-thumb.jpg);
+}
+
+.webp .workers-compensation-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/workers-compensation-insurance-thumb.webp);
+}
+
+.no-webp .workers-compensation-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/workers-compensation-insurance-thumb.jpg);
+}
+
+.webp .commercial-flood-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/commercial-flood-insurance-thumb.webp);
+}
+
+.no-webp .commercial-flood-insurance-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/commercial-flood-insurance-thumb.jpg);
+}
+
+.webp .nightclubs-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/nightclubs-thumb.webp);
+}
+
+.no-webp .nightclubs-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/nightclubs-thumb.jpg);
+}
+
+.webp .bars-taverns-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/bars-taverns-thumb.webp);
+}
+
+.no-webp .bars-taverns-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/bars-taverns-thumb.jpg);
+}
+
+.webp .breweries-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/breweries-thumb.webp);
+}
+
+.no-webp .breweries-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/breweries-thumb.jpg);
+}
+
+.webp .lounges-hookah-lounges-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/lounges-hookah-lounges-thumb.webp);
+}
+
+.no-webp .lounges-hookah-lounges-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/lounges-hookah-lounges-thumb.jpg);
+}
+
+.webp .restaurants-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/resturants-thumb.webp);
+}
+
+.no-webp .restaurants-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/resturants-thumb.jpg);
+}
+
+.webp .diversity-club-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/inclusion-and-diversity-rms1-thumb.webp);
+}
+
+.no-webp .diversity-club-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/inclusion-and-diversity-rms1-thumb.jpg);
+}
+
+.webp .diversity-employees-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/promoting-inclusion-and-diversity-for-all-our-employees-2-thumb.webp);
+}
+
+.no-webp .diversity-employees-section::before {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/promoting-inclusion-and-diversity-for-all-our-employees-2-thumb.jpg);
+}
+
+
+
+
+
+.write-review {
+  position: relative;
+}
+.write-review h2 {
+  font-size: 3.4rem;
+  line-height: 4.4rem;
+  font-weight: 400;
+}
+.write-review label {
+  color: #536f93;
+  font-weight: 700;
+}
+.write-review label.error {
+  color: red;
+}
+.write-review .btn-main:hover {
+  background-color: #fff;
+  color: #536f93;
+  border: 1px solid #536f93;
+}
+.write-review h3 {
+  font-size: 2.2rem;
+  line-height: 3.2rem;
+  font-weight: 400;
+  color: #2e2e2e;
+}
+.write-review .optional-width {
+  width: 30rem;
+}
+.write-review .opt-label {
+  color: #949494;
+  font-weight: 400;
+}
+
+.thank-banner {
+  background-position: center !important;
+}
+
+.thanks-bg p {
+  font-size: 18px;
+}
+
+.not-found-banner {
+  background-color: #536f93;
+  padding: 18rem 0 10rem;
+}
+.not-found-banner h1 {
+  font-size: 68px !important;
+  line-height: 78px !important;
+}
+
+.not-found p {
+  font-size: 18px;
+  line-height: 28px;
+}
+.not-found .btn-main:hover {
+  background-color: #2e2e2e;
+}
+
+.sitemap .heading {
+  display: block;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.cpiframe {
+  width: 80%;
+  height: 750px;
+}
+
+@media (max-width: 1024px) {
+  .inner-banner {
+    background-attachment: unset;
+  }
+  
+  .differ-bg .content-right {
+    padding: 120px 15px 120px 40px;
+  }
+  .billing-claims-bg .content-left {
+    padding: 120px 15px 120px 40px;
+  }
+  .cta-block-inner .btn-block-left h2 {
+    text-align: center;
+    margin: 0;
+  }
+  .cu.differ-bg::before {
+  background-position: initial !important;
+}
+}
+@media (max-width: 990px) {
+  .differ-bg::before {
+    position: static;
+    height: 350px;
+    width: 100%;
+    display: block;
+  }
+  .differ-bg .content-right {
+    padding: 50px 0 60px 0;
+  }
+  .billing-claims-bg .content-left {
+    padding: 50px 0 60px 0;
+  }
+  .contact-sec {
+    text-align: center;
+  }
+  .contact-sec .btn-sec {
+    flex-direction: column;
+  }
+  .contact-sec .btn-sec .btn-main {
+    margin-left: 0 !important;
+  }
+}
+@media (max-width: 767px) {
+  
+  .inner-banner .banner-content h1 {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+  }
+  .cta-block-inner .flex-btn {
+    justify-content: center;
+    margin: 15px 0 0;
+  }
+  .contact-sec {
+    text-align: center;
+  }
+  .contact-sec .btn-sec {
+    flex-direction: column;
+  }
+  .contact-sec .btn-sec .btn-main {
+    margin-left: 0 !important;
+  }
+}
+/*-------- Carrier Page --------*/
+.carrier-each {
+  margin: 0 0 30px;
+}
+.carrier-each .carrier-img-block {
+  border: solid 1px #cccccc;
+}
+.carrier-each .carrier-link-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 0 0;
+}
+.carrier-each .carrier-link-block .btn-border {
+  width: 48%;
+}
+
+/*-------- End Carrier Page --------*/
+/*-------- About Club Agency --------*/
+.bg-grey {
+  background-color: #f7f7f7;
+  border-top: 1px solid #eaeaea;
+}
+
+.btn-arrow {
+  margin: 30px 0 0;
+}
+.btn-arrow i {
+  margin-left: 10px;
+  transition: 0.2s all ease-in-out;
+}
+.btn-arrow:hover i {
+  transform: translateX(5px);
+}
+
+.about-club-agency-main .inner-desc .head-block {
+  padding: 0 0 20px;
+  border-bottom: solid 1px #c1c1c1;
+  margin: 0 0 25px;
+}
+.about-club-agency-main .inner-desc .head-block h2 {
+  color: #536f93;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: -1px;
+}
+.about-club-agency-main .inner-desc .head-block h5 {
+  color: #2e2e2e;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 500;
+}
+
+.club-insurance-service-main {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/about-parallax.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.club-insurance-service-main .club-service-wrapper {
+  background-color: rgba(255, 255, 255, 0.15);
+  display: flex;
+}
+.club-insurance-service-main .club-service-wrapper .club-insurance-service-each {
+  text-align: center;
+  border-right: solid 1px #8e8e8e;
+  padding: 35px 15px 100px;
+  width: 33.33%;
+  position: relative;
+}
+.quote-bfixed-btn {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.club-insurance-service-main .club-service-wrapper .club-insurance-service-each .club-service-img-block {
+  width: 73px;
+  height: 73px;
+  background-color: rgb(81, 107, 148);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: solid 1px #fff;
+  margin: 0 auto;
+  position: relative;
+}
+.club-insurance-service-main .club-service-wrapper .club-insurance-service-each .club-service-img-block:before {
+  content: "";
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  box-shadow: 0 0 0 2px #16171d;
+  width: 73px;
+  height: 73px;
+  border-radius: 50%;
+  opacity: 0;
+}
+.club-insurance-service-main .club-service-wrapper .club-insurance-service-each .club-service-img-block i {
+  color: #ffffff;
+  font-size: 28px;
+  line-height: 38px;
+}
+.club-insurance-service-main .club-service-wrapper .club-insurance-service-each .club-service-img-block:hover {
+  background-color: #ffffff;
+}
+.club-insurance-service-main .club-service-wrapper .club-insurance-service-each .club-service-img-block:hover i {
+  color: #516b94;
+}
+.club-insurance-service-main .club-service-wrapper .club-insurance-service-each .club-service-img-block:hover::before {
+  transform: scale(1.2);
+  transition: transform 0.2s cubic-bezier(0, 1.38, 0.14, 1.73), opacity 0.1s cubic-bezier(0, 1.38, 0.14, 1.73);
+  opacity: 1 !important;
+}
+.club-insurance-service-main .club-service-wrapper .club-insurance-service-each .club-service-desc-block {
+  margin: 26px 0 0;
+}
+.club-insurance-service-main .club-service-wrapper .club-insurance-service-each .club-service-desc-block h2 {
+  color: #fff;
+  font-size: 2rem;
+  margin: 0 0 17px;
+}
+.club-insurance-service-main .club-service-wrapper .club-insurance-service-each .club-service-desc-block p {
+  color: #c9c9c9;
+}
+.club-insurance-service-main .club-service-wrapper .club-insurance-service-each .club-service-desc-block .btn-border {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+.club-insurance-service-main .club-service-wrapper .club-insurance-service-each .club-service-desc-block .btn-border:hover {
+  border-color: #536f93;
+}
+
+.map-block iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.contact-info-left {
+  margin: 0 0 3rem;
+}
+.contact-info-left h2 {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+.contact-info-left .btn-main:hover {
+  border: 1px solid #536f93;
+  color: #536f93;
+}
+
+.contact-info-right .ad-loc a {
+  font-weight: 700 !important;
+}
+.contact-info-right h3 {
+  position: relative;
+  font-size: 1.9rem;
+  line-height: 2.9rem;
+  font-weight: 400;
+}
+.contact-info-right h3:before {
+  content: "";
+  border-bottom: 1px solid #b2b2b2;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -8px;
+  top: auto;
+}
+.contact-info-right p {
+  font-size: 16px;
+}
+.contact-info-right p a {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.contact-sec {
+  padding: 4rem;
+  background-color: #536f93;
+  border: 1px solid #fff;
+}
+.contact-sec .btn-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-sec .btn-sec h2 {
+  font-size: 34px;
+  line-height: 44px;
+}
+.contact-sec .btn-sec .btn-main {
+  background-color: #fff;
+  color: #536f93;
+  margin-left: 5rem;
+}
+.contact-sec .btn-sec .btn-main:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+@media (max-width: 990px) {
+  .inner-img-block {
+    margin: 0 0 30px;
+  }
+}
+@media (max-width: 767px) {
+  .club-insurance-service-main .club-service-wrapper {
+    flex-direction: column;
+  }
+  .club-insurance-service-main .club-service-wrapper .club-insurance-service-each {
+    border: none;
+    width: 100%;
+  }
+}
+/*-------- End About Club Agency --------*/
+/*-------- Thank You --------*/
+.thankyou-main-wrapper {
+  margin: 90px 0 0;
+}
+.testimonial-section p strong {
+    color: #516b94;
+}
+.testimonial-section i {
+    font-size: 40px;
+    line-height: 50px;
+    color: #516b94;
+}
+/*27-12-22*/
+.heading-tag{
+  font-size: 25px;
+  line-height:35px;
+  color: #516b94;
+}

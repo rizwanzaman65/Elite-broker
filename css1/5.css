@@ -1,0 +1,481 @@
+.home-slider {
+  position: relative;
+  z-index: 1;
+}
+.home-slider .carousel-control-prev {
+  left: 15px;
+}
+.home-slider .carousel-control-next {
+  right: 15px;
+}
+.home-slider .carousel-indicators {
+  margin: 0 0 25px;
+}
+.home-slider .carousel-indicators .tp-bullet {
+  overflow: hidden;
+  border-radius: 50px;
+  width: 12px;
+  height: 12px;
+  background: transparent;
+  border: solid 1px #ffffff;
+  transition: background 0.3s ease;
+  opacity: 1;
+  margin: 0 5px 0;
+}
+.home-slider .carousel-indicators .tp-bullet.active {
+  border: solid 1px #ffffff;
+  background-color: #ffffff;
+}
+.home-slider .carousel-item {
+  height: 80vh;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-animation-name: zoomOut;
+  animation-name: zoomOut;
+  -webkit-animation-duration: 20s;
+  animation-duration: 20s;
+  background-attachment: fixed;
+}
+.home-slider .carousel-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.home-slider .carousel-item .mob-banner {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 0;
+}
+.home-slider .carousel-item .carousel-caption {
+  position: relative;
+  bottom: auto;
+  top: auto;
+  left: 0;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+  padding: 0 30px;
+}
+.home-slider .carousel-item .carousel-caption h1 {
+  color: #ffffff;
+  font-size: 72px;
+  line-height: 73px;
+  font-weight: 800;
+  letter-spacing: -3px;
+  text-transform: capitalize;
+}
+.home-slider .carousel-item .carousel-caption h1 span {
+  color: #536f93;
+}
+.home-slider .carousel-item .carousel-caption p {
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 26px;
+  font-family: "Georgia";
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0px;
+  text-transform: none;
+  margin: 20px 0;
+}
+.home-slider .flex-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0 0;
+}
+
+.home-slider .carousel-control-prev,
+.home-slider .carousel-control-next {
+  top: 52%;
+  transition: opacity 0.15s ease;
+  height: 45px;
+  width: 45px;
+  opacity: 1;
+  background-color: #ffffff;
+}
+.home-slider .carousel-control-prev span,
+.home-slider .carousel-control-next span {
+  color: #2e2e2e;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrier-carousel {
+  position: relative;
+  padding: 60px 0 60px;
+}
+.carrier-carousel .carrier-logo img {
+  filter: grayscale(1);
+  transition: 0.3s all ease-in-out;
+  transition: all 0.4s cubic-bezier(0.63, 0.08, 0.35, 0.92);
+  opacity: 0.9;
+  width: 230px;
+}
+.carrier-carousel .carrier-logo img:hover {
+  filter: grayscale(0);
+  opacity: 1;
+}
+
+.our-products-main .service-single {
+  margin: 60px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.our-products-main .service-single .serv-icon {
+  margin: 0;
+}
+.our-products-main .service-single .serv-icon img {
+  max-width: 100%;
+}
+.our-products-main .service-single .serv-content {
+  margin: 30px 0 0;
+}
+.our-products-main .service-single .serv-content h2 {
+  font-weight: 700;
+  font-size: 2.3rem;
+  line-height: 2.2rem;
+  color: #2e2e2e;
+  margin: 0;
+}
+.our-products-main .service-single .serv-content span {
+  color: #536f93;
+  font-weight: 400;
+  font-size: 1.7rem;
+  margin: 25px 0 0;
+}
+.our-products-main .service-single .serv-content p {
+  margin: 18px 0 0;
+}
+
+.btn-block {
+  padding: 55px 0;
+  position: relative;
+  background-attachment: fixed;
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.webp .btn-block {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/cta-bg.webp);
+}
+.no-webp .btn-block {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/cta-bg.jpg);
+}
+.btn-block .btn-block-left h2 {
+  font-size: 2.6rem;
+  line-height: 3.5rem;
+  font-weight: 400;
+}
+.btn-block .flex-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.about-main .about-section-left .sub-heading {
+  color: #536f93;
+  font-size: 1.9rem;
+  line-height: 1.5rem;
+  margin: 0;
+  font-weight: 400;
+}
+.about-main .about-section-left .heading {
+  font-size: 2.5rem;
+}
+.about-main .about-section-left .btn-border {
+  transition: none;
+}
+.about-main .about-section-left .btn-border i {
+  transition: 0.3s all;
+  transform: translateX(0px);
+}
+.about-main .about-section-left .btn-border:hover i {
+  transform: translateX(5px);
+}
+.about-main .about-section-right {
+  padding: 50px 0 0;
+}
+.about-main .about-section-right .small-txt {
+  font-weight: 400;
+  color: #2e2e2e;
+  font-size: 3rem;
+  line-height: 0px;
+  padding-left: 11px;
+}
+.about-main .about-section-right .large-txt {
+  font-size: 8rem;
+  font-weight: 500;
+  font-family: "Georgia";
+  font-style: italic;
+  color: #e4e4e4;
+  margin: 0;
+  line-height: 6.2rem;
+}
+.about-main .about-section-right .heading {
+  font-size: 6.2rem;
+  color: #536f93;
+}
+
+.find-lowest-prices {
+  padding: 100px 0;
+  position: relative;
+  background-attachment: fixed;
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.webp .find-lowest-prices {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/quote-bg.webp);
+}
+.no-webp .find-lowest-prices {
+  background-image: url(https://cdn.stratospherewebsites.com/source/sites/07931a39-ef10-46da-8c8a-12040f5e8d10/images/quote-bg.jpg);
+}
+.find-lowest-prices .find-lowest-prices-content {
+  text-align: center;
+}
+.find-lowest-prices .find-lowest-prices-content h2 {
+  margin: 0 0 10px;
+}
+.find-lowest-prices .find-lowest-prices-content h3 {
+  font-size: 1.9rem;
+  line-height: 1.5rem;
+  margin: 0;
+  font-weight: 300;
+}
+.find-lowest-prices .find-lowest-prices-content .call-no {
+  margin: 30px 0 40px;
+}
+.find-lowest-prices .find-lowest-prices-content .call-no a {
+  font-size: 4.6rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+.find-lowest-prices .find-lowest-prices-content .btn-main {
+  border-color: #fff !important;
+}
+.find-lowest-prices .find-lowest-prices-content .btn-main i {
+  transition: 0.3s all;
+  transform: translateX(0px);
+}
+.find-lowest-prices .find-lowest-prices-content .btn-main:hover, .find-lowest-prices .find-lowest-prices-content .btn-main:focus {
+  background-color: #536f93;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.find-lowest-prices .find-lowest-prices-content .btn-main:hover i, .find-lowest-prices .find-lowest-prices-content .btn-main:focus i {
+  transition: 0.3s all;
+  transform: translateX(5px);
+}
+
+.fixedbottom {
+  background-color: #536f93;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 99999;
+  padding: 20px 0;
+}
+.fixedbottom .fixedbottom-text {
+  position: relative;
+  padding: 0;
+  text-align: left;
+}
+.fixedbottom .fixedbottom-text h2 {
+  font-size: 2rem;
+  line-height: 3rem;
+  letter-spacing: 1px;
+  color: #fff;
+  margin: auto;
+  max-width: 920px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  margin: 0 0 10px;
+}
+.fixedbottom .fixedbottom-text p {
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  max-width: 920px;
+}
+.fixedbottom .fixedbottom-text p a {
+  color: #fff;
+}
+.fixedbottom .fixedbottom-text p a:hover {
+  color: #57606e;
+}
+.fixedbottom .fixedbottom-text p .risk {
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 4px 20px;
+  margin-left: 15px;
+  color: #536f93;
+  border-radius: 30px;
+}
+.fixedbottom .closefixedbottom {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.custom-wow {
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s all ease-in-out;
+}
+.custom-wow.animated {
+  visibility: visible;
+  opacity: 1;
+}
+
+.custom-wow.animated.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+}
+.custom-wow.animated.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+          animation-name: fadeInRight;
+}
+.custom-wow.animated.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+          animation-name: fadeInLeft;
+}
+.custom-wow.animated.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+          animation-name: fadeInDown;
+}
+.custom-wow.animated.fadeIn {
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.animated.delay-1s {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+.animated.delay-1-2s {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+.animated.delay-1-3s {
+  -webkit-animation-delay: 1.3s;
+          animation-delay: 1.3s;
+}
+.animated.delay-1-4s {
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
+}
+.animated.delay-1-5s {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+.animated.delay-1-6s {
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+}
+
+@media (max-width: 1500px) {
+  .home-slider .carousel-item {
+    -webkit-animation: none;
+    animation: none;
+    -webkit-animation-timing-function: none;
+    animation-timing-function: none;
+  }
+}
+@media (max-width: 1024px) {
+.home-slider .carousel-item {
+	background-attachment: unset;
+  background-position:center center;
+  height:65vh;
+  }
+}
+
+@media (max-width: 990px) {
+  .home-slider .carousel-caption h1 {
+    font-size: 4rem !important;
+    line-height: 5rem !important;
+  }
+  .btn-block {
+    text-align: center;
+  }
+  .btn-block .flex-btn {
+    margin: 15px 0 0;
+    justify-content: center;
+  }
+  .pad-70 {
+    padding: 50px 0;
+  }
+  .section-divider {
+    margin: 0 0 70px;
+  }
+}
+@media (max-width: 767px) {
+  .home-slider .carousel-item .carousel-caption h1 {
+    letter-spacing: inherit;
+}
+  
+  .home-slider .carousel-item {
+    height: auto;
+    background-size: 0;
+  }
+  .home-slider .carousel-item .mob-banner {
+    background-size: cover !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+  }
+  .home-slider .carousel-item::before {
+    background: #2e2e2e;
+    opacity: 0.7;
+  }
+  .home-slider .carousel-caption {
+    align-items: center !important;
+    text-align: center !important;
+    padding: 0 !important;
+    bottom: -50px !important;
+  }
+  .home-slider .carousel-caption h1,
+.home-slider .carousel-caption h2 {
+    font-size: 3.2rem !important;
+    line-height: 4.2rem !important;
+  }
+  .home-slider .carousel-caption .home_cta .banner-btn {
+    margin: 0 5px 10px;
+    padding: 8px 12px;
+    font-size: 1.4rem;
+  }
+  .home-slider .carousel-item .carousel-caption .banner-btn {
+    padding: 14px 35px;
+  }
+  .fixedbottom .fixedbottom-text p .risk {
+    margin: 5px 0;
+  }
+}
